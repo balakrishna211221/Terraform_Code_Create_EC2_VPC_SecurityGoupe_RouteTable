@@ -17,7 +17,7 @@ variable "availability_zone" {
 
 variable "instance_ami" {
   description = "AMI for aws EC2 instance"
-  default = "ami-0c5b87eb0af26f0f2"  //give image ami id from aws
+  default = "ami-98bb2c8f"  //give image ami id from aws
 }
 variable "instance_type" {
   description = "type for aws EC2 instance"
